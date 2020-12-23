@@ -1,28 +1,38 @@
 .center-screen {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 h1 {
-	font-family: 'PT Serif Caption', serif;
-	margin: 0;
-	color: #1d1d1f;
-	letter-spacing: -.005em;
+    font-family: 'PT Serif Caption', serif;
+    margin: 0;
+    color: #1d1d1f;
+    letter-spacing: -.005em;
 }
 
 .contacts {
-	margin: 1.75em 0;
+    margin: 1.75em 0;
 }
 
 .contacts p {
-	margin: 0 0 0.25em;
-	text-align: left;
-	color: #86868b;
-	position: relative;
-	font-weight: 400;
-	font-size: 0.85em;
-	font-family: 'PT Sans', sans-serif;
+    margin: 0 0 0.25em;
+    text-align: left;
+    color: #86868b;
+    position: relative;
+    font-weight: 400;
+    font-size: 0.85em;
+    font-family: 'PT Sans', sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: rgba(21, 21, 21, 1);
+    }
+
+    h1 {
+        color: rgba(255, 255, 255, 0.85);
+    }
 }
