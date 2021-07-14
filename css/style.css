@@ -9,31 +9,31 @@ h2, h5 {
     letter-spacing: -.005em;
 }
 
-.contacts {
-    margin: 3em 0 0 0;
-}
-
-.contacts p {
-    text-align: left;
-    position: relative;
-    font-weight: 400;
-    margin: 1em 0;
-}
-
-.contacts ul {
+ul.inline {
     margin: 0;
     padding:0;
     display: inline-block;
-    list-style: disc outside;
 }
 
-.contacts ul li {
+ul.inline li {
     display: inline;
 }
 
-.contacts ul li.separator {
+ul.inline li.separator {
     margin: 0 5px;
-    color: #666;
+    color: rgba(225, 225, 225, 1.0);
+}
+
+.content {
+    margin: 1.5rem 0;
+}
+
+.content p:last-of-type {
+    margin-bottom: 0;
+}
+
+.title {
+    margin-bottom: 2.5rem !important;
 }
 
 /*@media (prefers-color-scheme: dark) {

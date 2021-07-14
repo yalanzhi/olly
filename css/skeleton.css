@@ -158,9 +158,13 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  color: rgba(0, 0, 0, 1.0);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  padding-bottom: 2px;
+  }
 a:hover {
-  color: #0FA0CE; }
+  color: rgba(0, 0, 0, 0.6);; }
 
 
 /* Buttons
