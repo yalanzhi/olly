@@ -404,7 +404,7 @@ there.
 
 /* Larger than mobile */
 @media (min-width: 400px) {
-  h2 { font-size: 3.6rem;
+  h2 { font-size: 3.2rem;
 }
 
 /* Larger than phablet (also point when grid becomes active) */
