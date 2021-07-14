@@ -144,7 +144,7 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 /* Larger than phablet */
 @media (min-width: 550px) {
   h1 { font-size: 5.0rem; }
-  h2 { font-size: 3.6rem; }
+  h2 { font-size: 4.2rem; }
   h3 { font-size: 3.6rem; }
   h4 { font-size: 3.0rem; }
   h5 { font-size: 2.4rem; }
@@ -403,10 +403,14 @@ there.
 
 
 /* Larger than mobile */
-@media (min-width: 400px) {}
+@media (min-width: 400px) {
+  h2 { font-size: 3.6rem;
+}
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
+@media (min-width: 550px) {
+  h2 { font-size: 4.2rem;
+}
 
 /* Larger than tablet */
 @media (min-width: 750px) {}
