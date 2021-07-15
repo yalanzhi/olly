@@ -37,7 +37,7 @@ ul.inline li.separator {
 }
 
 hr {
-    border-color: rgba(33, 33, 33, 0.2);
+    border-color: #333;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -61,5 +61,5 @@ hr {
     }
 
     hr {
-        border-color: rgba(30, 30, 30, 1.0);
+        border-color: rgba(255, 255, 255, 0.8);
     }

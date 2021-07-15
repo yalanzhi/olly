@@ -160,7 +160,7 @@ p {
 a {
   color: #1E1E24;
   text-decoration: none;
-  border-bottom: 1px solid rgba(33, 33, 33, 0.2);
+  border-bottom: 1px solid rgba(33, 33, 33, 0.6);
   padding-bottom: 1px;
   }
 a:hover {
